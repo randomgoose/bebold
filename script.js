@@ -68,3 +68,6 @@ for (let i = 0; i < businessC.length; i++) {
 for (let i = 0; i < businessD.length; i++) {
     businessD[i].style.transitionDelay = 0.02 * i + 's';
 }
+
+
+requestAnimationFrame((data) => { console.log(data) })
